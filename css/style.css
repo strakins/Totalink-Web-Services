@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Merriweather', serif;
+}
+.hero {
+    background-image: url(../images/students.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0.658);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+.text-hero {
+    font-size: 2em;
+}
+.navs{
+    background-color: rgba(41, 38, 38, 0.048);
+}
+.button {
+    padding: 8px 22px;
+}
+.trainings {
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-hero {
+    background-image: url(../images/browzer.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0.658);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+.address {
+    background: white;
+}
+.address:hover {
+    background: rgb(81, 107, 223);
+    color: white;
+}
+.contact-side1{
+    background-image: url(../images/laptop.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(65, 64, 64, 0.61);
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+}
+.card-text{
+    font-size: 1.2em;
+}
+.card-text-p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.text1 {
+    font-size: 1.7em;
+    color: aqua;
+}
+.text2 {
+    font-size: medium;
+    color: aqua;
+}
+.registration-container {
+    min-height: 100vh;
+    color: white;
+    background-image: url(../images/browzer.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0.658);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 500px) {
+    .hero {
+        background-image: url(../images/students.jpg);
+        box-shadow: inset 0 0 0 2000px rgba(31, 32, 32, 0.658);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 250px;
+    }
+    .text-hero {
+        font-size: 1em;
+    }
+    .text1 {
+        font-size: 1em;
+        color: aqua;
+    }
+    .text2 {
+        font-size: small;
+        color: aqua;
+    }
+    .contact-side1{
+        background-image: url(../images/laptop.jpg);
+        box-shadow: inset 0 0 0 2000px rgba(65, 64, 64, 0.61);
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+}
+@media (max-width: 320px) {
+    .text1 {
+        font-size: 0.8em;
+        color: aqua;
+    }
+    .text2 {
+        font-size: 0.5em;
+        color: aqua;
+    }
+   
+}
