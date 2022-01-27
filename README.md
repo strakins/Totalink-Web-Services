@@ -14,7 +14,10 @@ And Open with Live Server.
 
 ## Dependencies
 
-Bootstrap 5
+ - Bootstrap 5
+ - HTML
+ - CSS
+ - FontAwesome CDN
 
 ## Future Additions:
 
